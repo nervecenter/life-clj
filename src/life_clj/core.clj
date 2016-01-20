@@ -1,3 +1,5 @@
+;; Copyright 2016 Christopher Collazo
+
 (ns life-clj.core
   (:require [quil.core :as q]
             [quil.middleware :as m]))
