@@ -1,10 +1,8 @@
 ;; Copyright 2016 Christopher Collazo
 
-(defproject life-clj "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+(defproject life-clj "1.0.0"
+  :description "Conway's Game of Life in Clojure, using Quil."
+  :url "http://bitbucket.org/nervecenter/life-clj"
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [quil "2.3.0"]]
   :main life-clj.core)
